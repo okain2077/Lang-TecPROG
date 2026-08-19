@@ -118,7 +118,7 @@ int main(int argc, char** argv) {
 	printf("Digite o um valor para o raio da esfera!\n");
 	scanf("%f", &raio);
 	
-	volume = (4/3) * pi * (raio * 3);
+	volume = (4/3) * pi * pow(raio, 3);
 	
 	printf("O volume da esfera e %.2f", volume);
 	printf("\n");

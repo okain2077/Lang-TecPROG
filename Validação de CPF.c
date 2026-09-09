@@ -14,7 +14,7 @@ int main(int argc, char *argv[]) {
 	
 	
 	printf("Digite o seu CPF!\n");
-	scanf("%d %d %d . %d %d %d . %d %d %d - %d %d", &cpf1, &cpf2, &cpf3, &cpf4, &cpf5, &cpf6, &cpf7, &cpf8, &cpf9, &cpf10, &cpf11);
+	scanf("%1d%1d%1d%1d%1d%1d%1d%1d%1d%1d%1d", &cpf1, &cpf2, &cpf3, &cpf4, &cpf5, &cpf6, &cpf7, &cpf8, &cpf9, &cpf10, &cpf11);
 	
 	soma1 = multDigito(cpf1,10) + multDigito(cpf2,9) + multDigito(cpf3,8) + multDigito(cpf4,7) + multDigito(cpf5,6) + multDigito(cpf6,5) + multDigito(cpf7,4) + multDigito(cpf8,3) + multDigito(cpf9,2);
 	mult1 = soma1 * 10;
